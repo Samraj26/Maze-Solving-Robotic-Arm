@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="myCobot_Pro_600_230708">
+    <link name="J1²Ö-W">
+        <inertial>
+            <origin xyz="-0.006860586298336737 0.06819935646302144 -0.00021516493741759423" rpy="0.0 0.0 0.0" />
+            <mass value="5.283944559717728" />
+            <inertia ixx="0.016270974684011157" iyy="0.010074320333708675" izz="0.017930495780717592" ixy="-0.001216001806737624" iyz="-3.2255561348479536e-05" ixz="-5.0083941686094494e-05" />
+        </inertial>
+        <visual name="J1²Ö-W_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/J1²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="J1²Ö-W_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/J1²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="J2²Ö-W">
+        <inertial>
+            <origin xyz="1.359499721172252e-07 0.03131387629024316 0.030792032280569988" rpy="0.0 -0.0 0.0" />
+            <mass value="1.8161400713472573" />
+            <inertia ixx="0.0027563028441427787" iyy="0.0017872507219154178" izz="0.0026121896075267125" ixy="6.606501640368232e-09" iyz="-0.00042112561013885687" ixz="-3.6472986192329116e-09" />
+        </inertial>
+        <visual name="J2²Ö-W_visual">
+            <origin xyz="-7.954668465006383e-15 0.15244542431451322 -0.011869002363460392" rpy="1.5707963267948966 2.265706935539165e-15 -2.5371873268327675e-29" />
+            <geometry>
+                <mesh filename="meshes/J2²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="J2²Ö-W_collision">
+            <origin xyz="-7.954668465006383e-15 0.15244542431451322 -0.011869002363460392" rpy="1.5707963267948966 2.265706935539165e-15 -2.5371873268327675e-29" />
+            <geometry>
+                <mesh filename="meshes/J2²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="J3²Ö-W">
+        <inertial>
+            <origin xyz="0.1249972000121414 3.5115707785138285e-07 0.03744670093368196" rpy="0.0 -0.0 0.0" />
+            <mass value="3.6586755706939065" />
+            <inertia ixx="0.0023089539403783055" iyy="0.02608185872016309" izz="0.02667533981024093" ixy="4.135887034166128e-08" iyz="-3.765557492629808e-08" ixz="-1.364540718389482e-07" />
+        </inertial>
+        <visual name="J3²Ö-W_visual">
+            <origin xyz="-0.09245346129015924 -4.7648042311720925e-09 -0.049309995801403196" rpy="1.5707963267948946 1.5707963267948855 0" />
+            <geometry>
+                <mesh filename="meshes/J3²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="J3²Ö-W_collision">
+            <origin xyz="-0.09245346129015924 -4.7648042311720925e-09 -0.049309995801403196" rpy="1.5707963267948946 1.5707963267948855 0" />
+            <geometry>
+                <mesh filename="meshes/J3²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="J4²Ö-W">
+        <inertial>
+            <origin xyz="0.0737950289958486 -0.00019463064835377963 0.12780766909466118" rpy="0.0 -0.0 0.0" />
+            <mass value="4.7824834765532325" />
+            <inertia ixx="0.03506034538906222" iyy="0.035584095033191265" izz="0.003738337557887439" ixy="-4.525430906258607e-06" iyz="0.00011249572581523148" ixz="0.00011232234614848638" />
+        </inertial>
+        <visual name="J4²Ö-W_visual">
+            <origin xyz="0.00043999580139834297 -5.214528115971006e-09 -0.09095362790688954" rpy="1.5707963267948988 -3.3879251634360887e-15 3.141591631480279" />
+            <geometry>
+                <mesh filename="meshes/J4²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="J4²Ö-W_collision">
+            <origin xyz="0.00043999580139834297 -5.214528115971006e-09 -0.09095362790688954" rpy="1.5707963267948988 -3.3879251634360887e-15 3.141591631480279" />
+            <geometry>
+                <mesh filename="meshes/J4²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="J5²Ö-W">
+        <inertial>
+            <origin xyz="-0.04946764602161261 0.019291363415272295 -0.0004621352519578892" rpy="0.0 -0.0 0.0" />
+            <mass value="1.1183808611372126" />
+            <inertia ixx="0.0008274786636285336" iyy="0.00075519220811171" izz="0.0009230470015980374" ixy="8.531489616707062e-05" iyz="6.351842368246262e-06" ixz="-1.0637403482990915e-06" />
+        </inertial>
+        <visual name="J5²Ö-W_visual">
+            <origin xyz="7.106028107273232e-07 -0.699339376162919 -8.853007216202969e-12" rpy="-1.0221095138624648e-06 1.5707963267948926 0" />
+            <geometry>
+                <mesh filename="meshes/J5²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="J5²Ö-W_collision">
+            <origin xyz="7.106028107273232e-07 -0.699339376162919 -8.853007216202969e-12" rpy="-1.0221095138624648e-06 1.5707963267948926 0" />
+            <geometry>
+                <mesh filename="meshes/J5²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="J6²Ö-W">
+        <inertial>
+            <origin xyz="-0.00013346095854501527 -0.010571822349218607 -0.049219118100809534" rpy="0.0 -0.0 0.0" />
+            <mass value="1.359910967023591" />
+            <inertia ixx="0.0016214157986685074" iyy="0.0009802306764811197" izz="0.0015102020435571184" ixy="-3.3974376802414774e-06" iyz="-1.2184855055739907e-05" ixz="-1.503218849396859e-07" />
+        </inertial>
+        <visual name="J6²Ö-W_visual">
+            <origin xyz="-3.253587181006878e-08 -5.2031150818976357e-08 -0.05200000432255372" rpy="-1.5707963267948948 -1.0221095131573754e-06 -1.570796326794893" />
+            <geometry>
+                <mesh filename="meshes/J6²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="J6²Ö-W_collision">
+            <origin xyz="-3.253587181006878e-08 -5.2031150818976357e-08 -0.05200000432255372" rpy="-1.5707963267948948 -1.0221095131573754e-06 -1.570796326794893" />
+            <geometry>
+                <mesh filename="meshes/J6²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="J7²Ö-W">
+        <inertial>
+            <origin xyz="-0.014958151855837922 0.00013533814758893926 4.611386969358478e-05" rpy="-6.138521346930822e-84 -0.0 0.0" />
+            <mass value="0.28164436573161833" />
+            <inertia ixx="0.00017945216872697345" iyy="9.721347313838835e-05" izz="9.649672504441487e-05" ixy="1.5929854873912574e-07" iyz="-1.2607104374340317e-08" ixz="5.951079339733267e-08" />
+        </inertial>
+        <visual name="J7²Ö-W_visual">
+            <origin xyz="0.05349696455162441 -5.483357476521178e-08 -2.535790386559711e-09" rpy="1.876453263876132e-15 1.4995782393611967e-12 3.141591631480281" />
+            <geometry>
+                <mesh filename="meshes/J7²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="J7²Ö-W_collision">
+            <origin xyz="0.05349696455162441 -5.483357476521178e-08 -2.535790386559711e-09" rpy="1.876453263876132e-15 1.4995782393611967e-12 3.141591631480281" />
+            <geometry>
+                <mesh filename="meshes/J7²Ö-W.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="J1²Ö-W_Revolute-1" type="revolute">
+        <origin xyz="0.0 0.14983409 0.0" rpy="-1.5707963267948855 -0.0 0.0" />
+        <parent link="J1²Ö-W" />
+        <child link="J2²Ö-W" />
+        <axis xyz="0.0 1.1198214945786882e-14 1.0" />
+        <limit lower="-3.141593" upper="3.141593" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="J2²Ö-W_Revolute-2" type="revolute">
+        <origin xyz="-8.845105810955643e-17 0.08150021000000043 0.038000109999999074" rpy="-1.5707973489044327 -0.0 0.0" />
+        <parent link="J2²Ö-W" />
+        <child link="J3²Ö-W" />
+        <axis xyz="0.0 -2.2109524892379913e-08 1.0000000000004998" />
+        <limit lower="-3.141593" upper="3.141593" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="J3²Ö-W_Revolute-3" type="revolute">
+        <origin xyz="0.25 0.0 0.0" rpy="1.5707963267948966 1.5707953046853718 1.5707963267948966" />
+        <parent link="J3²Ö-W" />
+        <child link="J4²Ö-W" />
+        <axis xyz="1.0 -1e-06 0.0" />
+        <limit lower="-2.617994" upper="2.617994" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="J4²Ö-W_Revolute-4" type="revolute">
+        <origin xyz="0.03300000000000001 -4.000000000559112e-08 0.25" rpy="3.141592653589793 2.117582368135751e-22 -2.50695893448456e-31" />
+        <parent link="J4²Ö-W" />
+        <child link="J5²Ö-W" />
+        <axis xyz="1.0 9.999999999999997e-07 0.0" />
+        <limit lower="-3.141593" upper="3.141593" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="J5²Ö-W_Revolute-5" type="revolute">
+        <origin xyz="-0.05300006 0.053499940000000024 7.105427357601002e-17" rpy="1.5707963267948966 1.5707963267948966 0" />
+        <parent link="J5²Ö-W" />
+        <child link="J6²Ö-W" />
+        <axis xyz="-5.409907121128364e-32 1e-06 1.0" />
+        <limit lower="-2.932153" upper="2.932153" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="J6²Ö-W_Revolute-6" type="revolute">
+        <origin xyz="-2.999999999531156e-08 -0.05299705 -0.05199995000000002" rpy="1.5707963267948966 3.724853836738748e-31 1.5707963267948966" />
+        <parent link="J6²Ö-W" />
+        <child link="J7²Ö-W" />
+        <axis xyz="-1.0 1e-06 -2.1175823681357508e-28" />
+        <limit lower="-3.036873" upper="3.036873" effort="1000000" velocity="1000000" />
+    </joint>
+</robot>
